@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="box">
+      <div onclick="showForm('box1')" class="part1">2:00</div>
+      <p class="part2">4 available</p>
+    </div>
+
+    <div class="box">
+      <div onclick="showForm('box2')" class="part1">2:00</div>
+      <p class="part2">4 available</p>
+    </div>
+
+    <div class="box">
+      <div onclick="showForm('box3')" class="part1">2:00</div>
+      <p class="part2">4 available</p>
+    </div>
+
+    <div class="box">
+      <div onclick="showForm('box4')" class="part1">2:00</div>
+      <p class="part2">4 available</p>
+    </div>
+
+    <div id="form-container" action="">
+      <form class="input-form">
+        <label for="Name">name</label><br />
+        <input type="text" name="Name" id="Name" />
+        <br />
+        <label for="Email">Email</label><br />
+        <input type="text" name="Email" id="Email" />
+        <br />
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
